@@ -13,22 +13,22 @@ public class Player{
         this.jerseyNumber = jerseyNumber;
         this.role = role;
     }
-    public int getId(){
+    public int getPlayerId(){
         return playerId;
     }
-    public void setId(int playerId){
+    public void setPlayerId(int playerId){
         this.playerId = playerId;
     }
-    public String getName(){
+    public String getPlayerName(){
         return playerName;
     }
-    public void setName(String playerName){
+    public void setPlayerName(String playerName){
         this.playerName = playerName;
     }
-    public int getJersey(){
+    public int getJerseyNumber(){
         return jerseyNumber;
     }
-    public void setJersey(int jerseyNumber){
+    public void setJerseyNumber(int jerseyNumber){
         this.jerseyNumber = jerseyNumber;
     }
     public String getRole(){
